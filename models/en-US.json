@@ -1,0 +1,65 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "foundry manager",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartFoundry",
+                    "slots": [],
+                    "samples": [
+                        "Start Foundry",
+                        "Start the Foundry Instance",
+                        "Start the Instance",
+                        "Start the V. T. T.",
+                        "Turn Foundry on",
+                        "Turn on",
+                        "Start"
+                    ]
+                },
+                                {
+                    "name": "StopFoundry",
+                    "slots": [],
+                    "samples": [
+                        "Stop Foundry",
+                        "Stop the Foundry Instance",
+                        "Stop the Instance",
+                        "Stop the V. T. T.",
+                        "Turn Foundry off",
+                        "Turn off",
+                        "Stop"
+                    ]
+                },
+                                {
+                    "name": "FoundryStatus",
+                    "slots": [],
+                    "samples": [
+                        "what's the status",
+                        "if it's on",
+                        "status",
+                        "for the status",
+                        "if it's running",
+                        "what's the state",
+                        "state"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
